@@ -1,18 +1,210 @@
 body {
     font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header-section {
     background-image: url('/images/banner/banner3.png');
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: cover;
+    height: 1020px;
+    margin-bottom: 200px;
 
+
+}
+
+* {
+    margin: 0;
+}
+
+.header-text {
+    color: white;
+    text-align: right;
+    margin-right: 200px;
+    padding-top: 200px;
 }
 
 .header-section h1 {
     font-size: 70px;
 }
 
-.header-section p {
+.header-text p {
+    text-align: right;
+    font-size: 20px;
+}
+
+.contact-button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #005FAC;
+    margin-top: 50px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.header-paragraph {
+    text-align: right;
+}
+
+/* Failure-Section */
+.failure-section {
+    display: flex;
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
+
+.failure-image {
+    width: 50%;
+}
+
+.failure-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.failure-text {
+    font-size: 20px;
+    width: 50%;
+    padding-top: 20%;
+}
+
+.failure-text p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fail-list li {
+    list-style: none;
+
+}
+
+.tick-mark {
+    color: #16D887;
+    font-weight: 700;
+}
+
+/* My Plan Section */
+.my-plan {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.plan-lists {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+
+}
+
+.plan {
     font-size: 25px;
+    padding-top: 25px;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-lists p {
+    color: #737272;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/* }Call Centre  */
+.call-centre {
+    margin-top: 200px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png'), linear-gradient(to right, blue, white);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+.call-info {
+    margin-left: 50px;
+}
+
+.call-centre h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.call-centre button {
+    padding: 15px 30px;
+}
+
+#call-button {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #005FAC;
+    border-radius: 5px;
+    border-style: none;
+}
+
+/* Footer section  */
+.footer-section {
+    background-color: #151414;
+    color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 150px;
+}
+
+.future-item {
+    margin-left: 20%;
+}
+
+.future-item h1 {
+    font-size: 40px;
+}
+
+.future-item p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subscribe-item {
+    margin-left: 20%;
+}
+
+.subscribe-item h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#subscribe-button {
+    color: white;
+    font-size: 20px;
+    background-color: #005FAC;
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 7px;
+}
+
+#input-field {
+    font-size: 18px;
+    color: #F3F3F3;
+    background-color: black;
+    border: 0.1px solid #F3F3F3;
+    border-radius: 10px;
+    padding: 20px 60px;
 }
